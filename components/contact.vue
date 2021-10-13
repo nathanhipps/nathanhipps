@@ -1,6 +1,11 @@
 <template>
   <Section title="Contact" class="mt-96">
-    <form name="contact" method="POST" data-netlify="true">
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="email-confirm"
+    >
       <input name="email-confirm" class="hidden" />
       <div class="mt-4">
         <label for="email" class="block text-sm font-medium">Email</label>
@@ -11,12 +16,15 @@
             name="email"
             class="
               shadow-sm
+              px-3
+              py-2
               focus:ring-blue-500 focus:border-blue-500
               block
               w-72
               sm:text-sm
               border-gray-300
               rounded-md
+              text-gray-800
             "
             placeholder="you@example.com"
           />
@@ -31,12 +39,15 @@
             name="name"
             class="
               shadow-sm
+              px-3
+              py-2
               focus:ring-blue-500 focus:border-blue-500
               block
               w-72
               sm:text-sm
               border-gray-300
               rounded-md
+              text-gray-800
             "
             placeholder="Your Name"
           />
@@ -51,6 +62,9 @@
             name="message"
             rows="3"
             class="
+              py-2
+              px-3
+              text-gray-800
               max-w-lg
               shadow-sm
               block

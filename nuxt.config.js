@@ -1,3 +1,6 @@
+import tailwindForms from '@tailwindcss/forms'
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
