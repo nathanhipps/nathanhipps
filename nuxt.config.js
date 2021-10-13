@@ -14,7 +14,26 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        sizes: '16x16',
+        href: '/images/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        sizes: '32x32',
+        href: '/images/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        sizes: '96x96',
+        href: '/images/favicon-96x96.png',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
