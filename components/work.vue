@@ -40,7 +40,7 @@
           </a>
         </h4>
       </div>
-      <div class="flex">
+      <div class="lg:flex">
         <a class="hover:underline" href="https://www.batterydate.com/">
           <img
             class="w-64"
@@ -48,7 +48,7 @@
             alt="Battery Date Decoder PWA"
         /></a>
 
-        <p class="flex-1 ml-6 leading-8">
+        <p class="flex-1 lg:ml-6 leading-8 mt-4 lg:mt-0">
           This site takes a serial number and manufacturer name and will decode
           the date code. It is used by many service companies in the material
           handling industry. Forklift steel-case motive traction batteries
@@ -65,7 +65,7 @@
           >
         </h4>
       </div>
-      <div class="flex">
+      <div class="lg:flex">
         <a class="hover:underline" href="https://www.mcpclean.com/">
           <img
             class="w-64"
@@ -73,7 +73,7 @@
             alt="MCP Clean Marketing and E-Commerce Site"
         /></a>
 
-        <p class="flex-1 ml-6 leading-8">
+        <p class="flex-1 lg:ml-6 leading-8 mt-4 lg:mt-0">
           MCP is a company that provides industrial cleaning equipment. I built
           their marketing site and incorporated e-commerce functionality that
           uses Stripe for the payment gateway and integrates with their internal
@@ -88,14 +88,14 @@
           Funl - Customer Relationship Management Application
         </h4>
       </div>
-      <div class="flex">
+      <div class="lg:flex">
         <img
           class="w-64"
           src="@/assets/images/funl_app.jpg"
           alt="MCP Clean Marketing and E-Commerce Site"
         />
 
-        <p class="flex-1 ml-6 leading-8">
+        <p class="flex-1 lg:ml-6 leading-8 mt-4 lg:mt-0">
           Funl is a CRM that was built to manage long running capital equipment
           sales projects. It includes all of the company's customers, contacts,
           products, images, documents and a fully featured quotation builder.

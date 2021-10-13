@@ -32,7 +32,7 @@
           </li>
           <li>
             <a
-              v-scroll-to="{ el: '#about' }"
+              v-scroll-to="{ el: '#contact' }"
               class="hover:underline hover:text-blue-300"
               href="#"
               >Contact</a

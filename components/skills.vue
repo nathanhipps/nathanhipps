@@ -22,7 +22,9 @@
       </Skill>
 
       <Skill title="Inertia" description="Front End / Back End SPA Adapter">
-        <Inertia class="w-40 mb-4 mt-3" />
+        <div class="h-16 mb-4">
+          <Inertia class="w-40 mb-4 mt-3" />
+        </div>
       </Skill>
 
       <Skill title="PostgreSQL" description="Relational Database">
