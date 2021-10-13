@@ -1,6 +1,7 @@
 <template>
   <Section title="Contact" class="mt-96">
     <form name="contact" method="POST" data-netlify="true">
+      <input name="email-confirm" class="hidden" />
       <div class="mt-4">
         <label for="email" class="block text-sm font-medium">Email</label>
         <div class="mt-1">
